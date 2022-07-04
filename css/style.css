@@ -152,11 +152,13 @@ img {
         row-gap: 65px;
     }
 
-    /* ! Lessons */
-    .lessons .col {
+    .lessons .col,
+    .steps .col,
+    .why-us .col {
         width: 100%;
     }
 
+    /* ! Lessons */
     .lessons .col img {
         margin-bottom: 1.3125rem;
     }
@@ -166,18 +168,10 @@ img {
         margin-bottom: 0;
     }
 
-    .steps .col {
-        width: 100%;
-    }
-
     /* ! Why Us */
     .why-us {
         margin-bottom: 0;
         padding-block: 3rem;
         background-color: #222;
-    }
-
-    .why-us .col {
-        width: 100%;
     }
 }
